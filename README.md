@@ -6,9 +6,9 @@ Simple web-service on pure Python with Docker Compose.
 
 Server port: `5000`.
 
-URL: http://localhost:2000/{key}
+URL: http://localhost:5000/{key}
 
 Example requests using curl: 
-* curl -X GET localhost:2000/1
-* curl -X GET localhost:2000/53
-* curl -X GET localhost:2000/234234
+* curl -X GET localhost:5000/1
+* curl -X GET localhost:5000/53
+* curl -X GET localhost:5000/234234
