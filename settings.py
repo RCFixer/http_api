@@ -3,10 +3,10 @@ import logging
 logger_config = {
     'version': 1,
     'disable_existing_loggers': False,
-
     'formatters': {
         'std_format': {
-            'format': '{asctime} - {levelname} - {name} - {module}:{funcName}:{lineno} - {message}',
+            'format':
+            '{asctime} - {levelname} - {name} - {module}:{funcName}:{lineno} - {message}',
             'style': '{',
         },
     },
